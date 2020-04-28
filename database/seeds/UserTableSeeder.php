@@ -1,5 +1,5 @@
 <?php
-
+// php artisan make:seeder UserTableSeeder
 use Illuminate\Database\Seeder;
 use App\User;
 

@@ -1,4 +1,5 @@
 <?php
+// php artisan make:migration RoleUserPivottable
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;

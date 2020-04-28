@@ -1,4 +1,5 @@
 <?php
+// php artisan make:seeder PermissionTableSeeder
 
 use Illuminate\Database\Seeder;
 use App\Permission;

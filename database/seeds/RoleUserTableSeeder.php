@@ -1,4 +1,5 @@
 <?php
+// php artisan make:seeder RoleUserTableSeeder
 
 use Illuminate\Database\Seeder;
 use App\User;

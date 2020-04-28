@@ -1,4 +1,5 @@
 <?php
+// php artisan make:seeder PermissionRoleTableSeeder
 
 use Illuminate\Database\Seeder;
 use App\Role;
