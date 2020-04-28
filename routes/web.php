@@ -25,3 +25,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
 
     Route::resource('permission', 'PermissionController');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
