@@ -1,11 +1,9 @@
 <aside class="col-md-2 d-none d-md-block bg-light sidebar">
     <div class="sidebar-sticky">
         <ul class="nav flex-column">
-            @can('user_management_access')
             <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
                 <small>MAIN MENU</small>
             </li>
-            @endcan
             <li class="nav-item">
                 <a class="nav-link active" href="#collapseExample" data-toggle="collapse" aria-expanded="false">
                     <span data-feather="home"></span>
