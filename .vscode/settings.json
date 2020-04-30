@@ -2,8 +2,7 @@
     "editor.formatOnSave": true,
     "files.associations": {
 
-        ".blade.php": "html",
-        ".tpl": "html"
+        ".blade.php": "html"
     },
     "beautify.config": "",
     "beautify.language": {
