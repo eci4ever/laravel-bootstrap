@@ -3,8 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\User;
 use Illuminate\Http\Request;
-use App\Permission;
+use Spatie\Permission\Models\Permission;
 
 class PermissionController extends Controller
 {

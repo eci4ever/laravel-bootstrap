@@ -16,7 +16,8 @@ class Permission extends JsonResource
     {
         return [
             'id' => $this->id,
-            'title' => $this->title,
+            'name' => $this->name,
+            'guard_name' => $this->guard_name,
         ];
         //return parent::toArray($request);
     }

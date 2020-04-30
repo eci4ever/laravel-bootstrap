@@ -4,10 +4,11 @@
             <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
                 <small>MAIN MENU</small>
             </li>
+            @can('user_management_access')
             <li class="nav-item">
                 <a class="nav-link active" href="#collapseExample" data-toggle="collapse" aria-expanded="false">
                     <span data-feather="home"></span>
-                    <span>Admins</span>
+                    <span>User Admin</span>
                     <span class="ml-4" data-feather="plus-circle"></span>
                 </a>
             </li>
@@ -31,6 +32,7 @@
                     </a>
                 </li>
             </div>
+            @endcan
             <li class="nav-item">
                 <a class="nav-link" href="#">
                     <span data-feather="file"></span>
